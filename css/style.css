@@ -3,14 +3,173 @@ html, body {
   padding: 0;
 }
 
+
+
+.navbar-default {
+    background-color: #FFFFFF;
+}
 .navbar {
-  border: none;
+    min-height: 100px;
+    border: none;
+}
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    border-radius: 0;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar {
+    border-radius: 4px;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+
+
+
+.dropdown {
+    background-color: none;
+    color: white;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-toggle {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-menu a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover {
+    background-color: none;
+}
+
+
+
+
+
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-right:5px;
+}
+
+.navbar-brand > img {
+  display: inline;
+}
+
+
+
+
+
+.logo-text {
+  font-size: 42px;
+  font-weight: 200;
+  color: rgba(33, 33, 33, 0.8);
+  vertical-align: middle;
 }
 
 i {
-  color: #5c8aa3;
+  color:#10437D;
 }
 
+/*NASLOVNA*/
+.marketing {
+  margin-bottom: 20px;
+}
+
+.ubaceno {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ubaceni_naslov h2 {
+font-size: 34px;
+text-align: center;
+font-weight: 200;
+}
+
+.ubaceni_tekst p {
+  font-size:20px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom:20px;
+}
+
+.marketing h2 {
+  color: #212121;
+  font-size: 24px;
+  margin-top: 45px;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+.marketing hr {
+  width: 30%;
+  background-color: #009688;
+  height: 2px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
 
 
 /*O NAMA*/
@@ -18,13 +177,23 @@ i {
   padding-top: 120px;
 }
 
+h2 {
+  text-align: center;
+}
+
+ .naslov hr {
+  width: 50%;
+  background-color: #009688;
+  height: 2px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
 
 
 /*USLUGE*/
 .usluge {
   padding-top: 120px;
 }
-
 
 
 .linkovi {
@@ -49,7 +218,6 @@ i {
     border-radius: 0;
     border: 2px solid #009688;
     font-weight: 600;
-
   }
 
 
@@ -64,15 +232,23 @@ article {
   margin-top: 20px;
 }
 
-.kontakt-title {
-  margin-top: 20px;
+.form-title hr {
+  width: 50%;
+  background-color: #009688;
+  height: 2px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  }
+
+
+
+.kontakt {
+  margin-bottom: 40px;
 }
-
-
 /*FOOTER*/
 footer {
   margin-top: 25px;
-  height: 380px;
+  height: 280px;
   padding: 40px, 25px;
   background-color: #212121;
 }

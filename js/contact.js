@@ -56,7 +56,7 @@ $(function() {
           $("#success > .alert-danger").append(
             "<strong>Oprosti " +
               firstName +
-              " izgleda da je došlo do problema u radu servera...</strong> Možete li poslati poruku direktno na <a href='mailto:nimbussplit@gmail.com'>nimbussplit@gmail.com</a> ? Ispričavamo se zbog neugodnosti!"
+              " izgleda da je došlo do problema u radu servera...</strong> Možete li poslati poruku direktno na <a href='mailto:nimbus.split@gmail.com'>nimbus.split@gmail.com</a> ? Ispričavamo se zbog neugodnosti!"
           );
           $("#success > .alert-danger").append("</div>");
           //clear all fields
