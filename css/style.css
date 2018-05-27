@@ -101,8 +101,25 @@ html, body {
 
 
 
+.ro  li
+{
+  font-size: 18px;
+}
+
+.ro p{
+  font-size: 23px;
+}
 
 
+
+
+
+
+.rops p {
+  font-size: 21px;
+  width:1000px;
+  text-align: justify;
+}
 
 .center-block {
   display: block;
@@ -174,8 +191,15 @@ font-weight: 200;
 
 /*O NAMA*/
 .o-nama {
-  padding-top: 120px;
+  padding-top: 30px;
 }
+
+p {
+  font-size: 16px;
+}
+
+
+
 
 h2 {
   text-align: center;
@@ -192,7 +216,11 @@ h2 {
 
 /*USLUGE*/
 .usluge {
-  padding-top: 120px;
+  padding-top: 30px;
+}
+
+.row > p {
+  font-size: 24px;
 }
 
 
@@ -223,7 +251,7 @@ h2 {
 
 /*KONTAKT*/
 article {
-  margin-top: 100px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
