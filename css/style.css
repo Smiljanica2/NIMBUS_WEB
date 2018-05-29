@@ -112,14 +112,24 @@ html, body {
 
 
 
-
-
-
-.rops p {
-  font-size: 21px;
-  width:1000px;
-  text-align: justify;
+.rops  li
+{
+  font-size: 18px;
 }
+
+.rops p{
+  font-size: 23px;
+  width:900px;
+}
+
+.ropso p {
+  font-size: 18px;
+  text-align: justify;
+
+}
+
+
+
 
 .center-block {
   display: block;
@@ -144,7 +154,8 @@ html, body {
 }
 
 i {
-  color:#10437D;
+  color: #009688;
+  /*color:#10437D;*/
 }
 
 /*NASLOVNA*/
@@ -289,6 +300,10 @@ footer .container {
 
 .info {
   text-align: center;
+}
+
+.info-text a {
+  color: #009688;
 }
 
 footer h3 {
