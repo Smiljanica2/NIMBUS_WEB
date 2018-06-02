@@ -10,7 +10,8 @@ html, body {
 }
 .navbar {
     min-height: 100px;
-    border: none;
+
+
 }
 .navbar-default {
     background-color: #f8f8f8;
@@ -31,11 +32,14 @@ html, body {
 }
 .navbar {
     border-radius: 4px;
+
+
 }
 .navbar {
     position: relative;
     min-height: 50px;
-    margin-bottom: 20px;
+  
+
     border: 1px solid transparent;
 }
 
@@ -203,6 +207,8 @@ font-weight: 200;
 /*O NAMA*/
 .o-nama {
   padding-top: 30px;
+
+
 }
 
 p {
@@ -242,7 +248,7 @@ h2 {
   .btn-link {
     width: 90%;
     padding: 30px 0;
-    font-size: 22px;
+    font-size:  22px;
     margin: 10px 0;
   }
 
